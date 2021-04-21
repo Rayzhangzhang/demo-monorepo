@@ -1,7 +1,20 @@
 {
   "name": "root",
   "private": true,
+  "scripts": {
+    "build-all": "lerna run build --stream --parallel",
+    "change": "lerna changed --all",
+    "clean": "lerna run clean --stream --parallel",
+    "publish-all": "lerna publish --conventional-commits"
+  },
   "devDependencies": {
     "lerna": "^4.0.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "react-markdown-editor-lite": "^1.2.4",
+    "typescript": "^4.2.4"
   }
 }
