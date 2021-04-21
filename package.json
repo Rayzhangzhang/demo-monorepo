@@ -5,7 +5,7 @@
     "build-all": "lerna run build --stream --parallel",
     "change": "lerna changed --all",
     "clean": "lerna run clean --stream --parallel",
-    "publish-all": "lerna publish --conventional-commits"
+    "publish-all": "lerna publish"
   },
   "devDependencies": {
     "lerna": "^4.0.0"
@@ -14,6 +14,7 @@
     "packages/*"
   ],
   "dependencies": {
+    "b-package-zpf-test": "^1.3.0",
     "react-markdown-editor-lite": "^1.2.4",
     "typescript": "^4.2.4"
   }

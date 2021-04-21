@@ -1,3 +1,3 @@
-import A from "a-package";
+import A from "a-package-zpf-test";
 
 export default A
