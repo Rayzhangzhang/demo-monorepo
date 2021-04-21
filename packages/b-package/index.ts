@@ -1,3 +1,3 @@
 import APP from './src'
 
-APP()
+console.log(APP)
