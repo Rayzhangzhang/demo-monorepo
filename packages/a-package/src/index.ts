@@ -7,5 +7,6 @@ export default {
     console.log(get)
     console.log(12)
   },
-  MD
+  MD,
+  A: 123
 }
