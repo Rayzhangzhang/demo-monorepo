@@ -8,5 +8,6 @@ export default {
     console.log(12)
   },
   MD,
-  A: 123
+  A: 123,
+  B: 456,
 }
